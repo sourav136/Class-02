@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit.html">
+        <fieldset>
+            <legend>Student information form</legend>
+                <label for="fname">First Name:</label><br>
+                    <input id="fname" type="text" placeholder="enter your first name" required> <br><br>
+                <label for="lname">Last Name:</label><br>
+                    <input id="lname" type="text" placeholder="enter your last name"> <br><br>
+                <label for="mail">E-mail:</label><br>
+                    <input id="mail" type="email" placeholder="enter your e-mail"> <br><br>
+                <label for="number">Phone number:</label><br>
+                    <input id="number" type="number" placeholder="enter your mobile number"> <br><br>
+                <label for="division">District:</label><br>
+                    <select name="" id="division">
+                        <option value="" disabled selected>select your division</option>
+                        <option value="">Chattagram</option>
+                        <option value="">Dhaka</option>
+                        <option value="">Rajshahi</option>
+                        <option value="">Khulna</option>
+                    </select><br><br>
+                <label for="image">Select your image:</label><br>
+                    <input id="image" type="file" accept=".jpg, .pngg, .jpeg" placeholder="select image"> <br><br>
+                <label for="birth">Date of birth and time:</label><br>
+                    <input id="birth" type="datetime-local"  placeholder="select date and time"> <br><br>
+                <label for="color">Select your favourite color:</label><br>
+                    <input id="color" type="color"  placeholder="select your favourite color"> <br><br>
+                <label for="link">Potfolio link:</label><br>
+                    <input id="link" type="url"  placeholder="your potfolio link here"> <br><br>
+                <label for="">Gender:</label><br>
+                    <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label><br>   <br>
+                <label for="area">Write about yourself:</label><br>
+                    <textarea name="" id="area" rows="10" cols="50">about yourself</textarea><br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+    </fieldset>
+    </form>
+</body>
+</html>
